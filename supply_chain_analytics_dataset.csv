@@ -1,0 +1,501 @@
+shipment_id,shipping_date,delivery_date,pickup_location,drop_location,transportation_cost_$,delivery_status
+SH1000,2025-04-13,21-04-25,Delhi NCR,Delhi NCR,53.4,on_time
+SH1001,2025-01-21,25-01-25,Bengaluru,Mumbai,4926.0,on_time
+SH1002,2025-03-29,07-04-25,Delhi NCR,Bengaluru,630.0,on_time
+SH1003,2025-01-02,11-01-25,Bengaluru,Bengaluru,36.66,late
+SH1004,2025-07-07,09-07-25,Mumbai,Bengaluru,3885.0,delayed
+SH1005,2025-01-22,26-01-25,Mumbai,Mumbai,1582.0,on_time
+SH1006,2025-07-07,14-07-25,Delhi NCR,Mumbai,3234.0,on_time
+SH1007,2025-02-20,28-02-25,Bengaluru,Delhi NCR,1767.0,on_time
+SH1008,2025-02-20,28-02-25,Mumbai,Hyderabad,42.35,delayed
+SH1009,2025-06-16,18-06-25,Bengaluru,Delhi NCR,2863.0,delay_greater_than_2_hr
+SH1010,2025-01-14,20-01-25,New Delhi,Delhi NCR,1863.0,delay_greater_than_2_hr
+SH1011,2025-07-07,15-07-25,Chennai,Hyderabad,38.2,on_time
+SH1012,2025-01-08,15-01-25,Bengaluru,Bengaluru,3652.0,delay_greater_than_2_hr
+SH1013,2025-04-14,19-04-25,Hyderabad,New Delhi,3573.0,on_time
+SH1014,2025-02-23,28-02-25,Delhi NCR,Mumbai,25.0,on_time
+SH1015,2025-05-26,29-05-25,Hyderabad,Bengaluru,4797.0,delay_greater_than_2_hr
+SH1016,2025-07-09,18-07-25,Mumbai,Delhi NCR,3842.0,delay_greater_than_2_hr
+SH1017,2025-07-09,13-09-25,Bengaluru,New Delhi,10.46,on_time
+SH1018,2025-02-22,25-02-25,Mumbai,Mumbai,10.99,delay_greater_than_2_hr
+SH1019,2025-01-15,21-01-25,Chennai,Mumbai,564.0,late
+SH1020,2025-03-12,12-12-25,Delhi NCR,Bengaluru,2527.0,delay_greater_than_2_hr
+SH1021,2025-05-16,20-05-25,Bengaluru,Delhi NCR,891.0,on_time
+SH1022,2025-06-12,10-12-25,Bengaluru,Mumbai,4061.0,on_time
+SH1023,2025-05-15,17-05-25,Hyderabad,Delhi NCR,45.05,on_time
+SH1024,2025-02-17,26-02-25,Bengaluru,Mumbai,1304.0,late
+SH1025,2025-04-09,16-04-25,Delhi NCR,Delhi NCR,2070.0,on_time
+SH1026,2025-07-12,19-07-25,Bengaluru,Mumbai,39.88,on_time
+SH1027,2025-01-05,09-05-25,Mumbai,Delhi NCR,4988.0,on_time
+SH1028,2025-02-11,16-02-25,Delhi NCR,Delhi NCR,1984.0,delay_greater_than_2_hr
+SH1029,2025-03-04,11-04-25,Bengaluru,Bengaluru,1063.0,on_time
+SH1030,2025-04-06,14-04-25,Mumbai,Chennai,27.23,on_time
+SH1031,2025-06-20,26-06-25,Hyderabad,Mumbai,27.77,on_time
+SH1032,2025-01-28,31-01-25,Bengaluru,Delhi NCR,2097.0,delay_greater_than_2_hr
+SH1033,2025-07-04,09-07-25,Mumbai,Chennai,4127.0,on_time
+SH1034,2025-01-30,03-02-25,Mumbai,Mumbai,2163.0,delayed
+SH1035,2025-07-09,09-09-25,Mumbai,Hyderabad,1806.0,on_time
+SH1036,2025-04-26,02-05-25,Mumbai,Delhi NCR,22.27,on_time
+SH1037,2025-07-17,21-07-25,Bengaluru,Mumbai,4913.0,late
+SH1038,2025-06-14,23-06-25,Bengaluru,Mumbai,2498.0,delay_greater_than_2_hr
+SH1039,2025-02-28,09-03-25,Delhi NCR,Mumbai,1995.0,late
+SH1040,2025-06-29,01-07-25,Mumbai,Mumbai,1791.0,on_time
+SH1041,2025-05-10,07-10-25,Delhi NCR,Bengaluru,2136.0,on_time
+SH1042,2025-07-03,11-03-25,Mumbai,Chennai,2660.0,delay_greater_than_2_hr
+SH1043,2025-01-02,10-01-25,Chennai,Bengaluru,49.67,on_time
+SH1044,2025-05-06,11-05-25,Mumbai,Chennai,3277.0,delay_greater_than_2_hr
+SH1045,2025-07-17,25-07-25,Chennai,Delhi NCR,4010.0,on_time
+SH1046,2025-05-03,13-03-25,Chennai,Chennai,4889.0,delayed
+SH1047,2025-04-26,29-04-25,New Delhi,Delhi NCR,697.0,late
+SH1048,2025-04-07,09-04-25,Delhi NCR,Bengaluru,1647.0,on_time
+SH1049,2025-03-11,07-11-25,Chennai,Mumbai,1159.0,on_time
+SH1050,2025-05-27,30-05-25,Mumbai,New Delhi,2486.0,on_time
+SH1051,2025-05-28,05-06-25,Bengaluru,Bengaluru,2343.0,on_time
+SH1052,2025-05-08,16-05-25,Hyderabad,Bengaluru,2885.0,delay_greater_than_2_hr
+SH1053,2025-04-14,19-04-25,Mumbai,Mumbai,57.01,delayed
+SH1054,2025-01-07,12-01-25,New Delhi,Delhi NCR,1123.0,on_time
+SH1055,2025-04-23,25-04-25,Mumbai,Hyderabad,4223.0,delayed
+SH1056,2025-07-16,20-07-25,Mumbai,Hyderabad,2556.0,on_time
+SH1057,2025-05-27,05-06-25,Bengaluru,Bengaluru,1654.0,on_time
+SH1058,2025-02-23,04-03-25,Bengaluru,Mumbai,2196.0,on_time
+SH1059,2025-06-01,03-06-25,Mumbai,Mumbai,1945.0,delayed
+SH1060,2025-03-25,01-04-25,Hyderabad,Delhi NCR,598.0,delayed
+SH1061,2025-04-03,13-03-25,Mumbai,Delhi NCR,61.66,on_time
+SH1062,2025-07-13,22-07-25,New Delhi,Bengaluru,18.2,delayed
+SH1063,2025-03-09,11-03-25,Bengaluru,Mumbai,4993.0,on_time
+SH1064,2025-02-17,26-02-25,Delhi NCR,Delhi NCR,21.48,on_time
+SH1065,2025-05-25,03-06-25,New Delhi,Delhi NCR,1454.0,delayed
+SH1066,2025-01-22,29-01-25,Bengaluru,Hyderabad,2193.0,on_time
+SH1067,2025-04-19,26-04-25,Chennai,Delhi NCR,3854.0,on_time
+SH1068,2025-01-21,23-01-25,New Delhi,Bengaluru,1459.0,late
+SH1069,2025-07-16,20-07-25,Mumbai,Bengaluru,3620.0,on_time
+SH1070,2025-06-07,13-06-25,Hyderabad,Delhi NCR,1569.0,late
+SH1071,2025-04-09,14-04-25,Chennai,New Delhi,1560.0,delay_greater_than_2_hr
+SH1072,2025-02-15,21-02-25,Hyderabad,Bengaluru,1106.0,late
+SH1073,2025-07-07,15-07-25,Mumbai,Delhi NCR,2800.0,delay_greater_than_2_hr
+SH1074,2025-03-08,17-03-25,Mumbai,Chennai,2565.0,late
+SH1075,2025-01-25,29-01-25,Delhi NCR,Delhi NCR,2395.0,on_time
+SH1076,2025-04-24,03-05-25,Bengaluru,Bengaluru,4514.0,delay_greater_than_2_hr
+SH1077,2025-07-13,21-07-25,Mumbai,Hyderabad,654.0,delayed
+SH1078,2025-04-14,16-04-25,Chennai,New Delhi,4841.0,on_time
+SH1079,2025-02-08,10-08-25,Delhi NCR,Mumbai,1037.0,on_time
+SH1080,2025-02-19,28-02-25,Mumbai,Bengaluru,1024.0,delay_greater_than_2_hr
+SH1081,2025-03-01,06-03-25,Bengaluru,Bengaluru,4615.0,on_time
+SH1082,2025-05-24,31-05-25,Mumbai,Mumbai,1471.0,on_time
+SH1083,2025-04-02,05-04-25,Bengaluru,Mumbai,40.92,on_time
+SH1084,2025-07-10,12-07-25,Hyderabad,Bengaluru,4269.0,late
+SH1085,2025-05-05,12-05-25,Bengaluru,Bengaluru,2215.0,on_time
+SH1086,2025-03-11,10-11-25,Delhi NCR,Delhi NCR,2991.0,on_time
+SH1087,2025-02-22,27-02-25,Delhi NCR,Bengaluru,3551.0,delay_greater_than_2_hr
+SH1088,2025-04-18,23-04-25,New Delhi,New Delhi,1376.0,on_time
+SH1089,2025-04-26,30-04-25,Mumbai,Delhi NCR,4864.0,late
+SH1090,2025-05-04,12-04-25,Bengaluru,Bengaluru,2182.0,on_time
+SH1091,2025-04-30,04-05-25,Mumbai,Chennai,4175.0,late
+SH1092,2025-07-02,13-02-25,Bengaluru,Bengaluru,7.7,late
+SH1093,2025-01-23,25-01-25,Bengaluru,Mumbai,2431.0,delayed
+SH1094,2025-05-02,04-05-25,Mumbai,Bengaluru,41.86,on_time
+SH1095,2025-04-06,15-04-25,Chennai,Chennai,4172.0,on_time
+SH1096,2025-05-09,11-09-25,Bengaluru,Mumbai,4570.0,delayed
+SH1097,2025-07-10,14-10-25,Bengaluru,New Delhi,2794.0,late
+SH1098,2025-03-17,26-03-25,Mumbai,Bengaluru,4006.0,delay_greater_than_2_hr
+SH1099,2025-03-27,03-04-25,Delhi NCR,Hyderabad,1743.0,delay_greater_than_2_hr
+SH1100,2025-03-10,17-03-25,Delhi NCR,Mumbai,44.49,on_time
+SH1101,2025-05-24,30-05-25,Mumbai,Chennai,26.69,late
+SH1102,2025-04-11,07-11-25,Mumbai,Chennai,3349.0,on_time
+SH1103,2025-06-29,02-07-25,Mumbai,Delhi NCR,2131.0,late
+SH1104,2025-01-01,10-01-25,Chennai,Hyderabad,41.74,on_time
+SH1105,2025-01-02,10-02-25,Chennai,Mumbai,4046.0,delayed
+SH1106,2025-06-01,09-01-25,New Delhi,Mumbai,4246.0,on_time
+SH1107,2025-02-02,08-02-25,Bengaluru,New Delhi,3238.0,delay_greater_than_2_hr
+SH1108,2025-04-11,08-11-25,Bengaluru,Hyderabad,4413.0,on_time
+SH1109,2025-02-13,19-02-25,Bengaluru,Chennai,4607.0,delayed
+SH1110,2025-04-05,11-04-25,Bengaluru,Delhi NCR,3046.0,on_time
+SH1111,2025-03-31,09-04-25,New Delhi,Mumbai,2125.0,delayed
+SH1112,2025-04-25,03-05-25,New Delhi,Delhi NCR,3767.0,delayed
+SH1113,2025-03-16,22-03-25,Bengaluru,Mumbai,15.35,on_time
+SH1114,2025-05-18,24-05-25,Bengaluru,Bengaluru,37.55,delay_greater_than_2_hr
+SH1115,2025-06-26,30-06-25,Bengaluru,Bengaluru,4579.0,on_time
+SH1116,2025-02-05,13-02-25,Delhi NCR,Delhi NCR,4632.0,late
+SH1117,2025-07-02,08-07-25,Bengaluru,Bengaluru,2826.0,delayed
+SH1118,2025-04-15,17-04-25,Delhi NCR,Delhi NCR,55.65,on_time
+SH1119,2025-03-03,05-03-25,Mumbai,Bengaluru,23.31,on_time
+SH1120,2025-01-19,21-01-25,Delhi NCR,Chennai,895.0,on_time
+SH1121,2025-05-27,29-05-25,New Delhi,Mumbai,3002.0,on_time
+SH1122,2025-02-21,25-02-25,Delhi NCR,Mumbai,4077.0,on_time
+SH1123,2025-04-27,03-05-25,Hyderabad,Bengaluru,4991.0,on_time
+SH1124,2025-06-29,05-07-25,Bengaluru,Bengaluru,4136.0,on_time
+SH1125,2025-05-24,01-06-25,Mumbai,Mumbai,2656.0,late
+SH1126,2025-07-05,13-07-25,Hyderabad,Mumbai,47.42,on_time
+SH1127,2025-05-13,21-05-25,Delhi NCR,Mumbai,1232.0,on_time
+SH1128,2025-03-17,19-03-25,Bengaluru,Bengaluru,1453.0,late
+SH1129,2025-06-23,29-06-25,Delhi NCR,Chennai,1691.0,on_time
+SH1130,2025-06-19,23-06-25,Hyderabad,Delhi NCR,3181.0,delay_greater_than_2_hr
+SH1131,2025-07-13,19-07-25,Mumbai,Bengaluru,2886.0,on_time
+SH1132,2025-04-19,26-04-25,Chennai,Bengaluru,999.0,on_time
+SH1133,2025-03-12,08-12-25,Delhi NCR,Bengaluru,2327.0,delay_greater_than_2_hr
+SH1134,2025-06-08,12-08-25,Chennai,Hyderabad,42.79,late
+SH1135,2025-04-01,04-04-25,Hyderabad,Mumbai,4102.0,on_time
+SH1136,2025-02-08,14-02-25,Delhi NCR,Chennai,1743.0,late
+SH1137,2025-02-27,04-03-25,Delhi NCR,Bengaluru,955.0,on_time
+SH1138,2025-05-07,13-07-25,Mumbai,Chennai,3572.0,late
+SH1139,2025-04-02,06-02-25,Delhi NCR,Mumbai,1714.0,on_time
+SH1140,2025-02-25,27-02-25,Mumbai,Hyderabad,633.0,on_time
+SH1141,2025-02-27,08-03-25,Bengaluru,Hyderabad,2352.0,delayed
+SH1142,2025-03-21,28-03-25,Hyderabad,Bengaluru,3784.0,late
+SH1143,2025-05-27,29-05-25,New Delhi,Hyderabad,1756.0,on_time
+SH1144,2025-01-14,22-01-25,Bengaluru,Delhi NCR,4084.0,on_time
+SH1145,2025-02-23,27-02-25,New Delhi,Delhi NCR,3203.0,on_time
+SH1146,2025-03-15,24-03-25,Hyderabad,Bengaluru,3331.0,late
+SH1147,2025-07-19,24-07-25,New Delhi,Chennai,4968.0,delay_greater_than_2_hr
+SH1148,2025-01-08,13-01-25,Delhi NCR,Bengaluru,58.56,delayed
+SH1149,2025-03-01,04-03-25,Mumbai,Mumbai,12.99,delay_greater_than_2_hr
+SH1150,2025-02-10,06-10-25,Mumbai,Bengaluru,3008.0,on_time
+SH1151,2025-06-06,10-06-25,Mumbai,Hyderabad,47.8,late
+SH1152,2025-03-23,01-04-25,Delhi NCR,Bengaluru,2338.0,late
+SH1153,2025-07-13,22-07-25,Mumbai,Bengaluru,16.21,on_time
+SH1154,2025-04-29,08-05-25,Mumbai,Delhi NCR,2324.0,delayed
+SH1155,2025-03-06,12-06-25,Delhi NCR,Delhi NCR,4658.0,on_time
+SH1156,2025-01-27,29-01-25,New Delhi,New Delhi,4500.0,late
+SH1157,2025-04-08,16-04-25,Delhi NCR,Chennai,884.0,on_time
+SH1158,2025-05-29,03-06-25,Bengaluru,Bengaluru,2500.0,delay_greater_than_2_hr
+SH1159,2025-07-16,23-07-25,Mumbai,Mumbai,1960.0,on_time
+SH1160,2025-01-23,26-01-25,Bengaluru,Mumbai,58.48,late
+SH1161,2025-05-25,27-05-25,Bengaluru,Delhi NCR,2548.0,on_time
+SH1162,2025-06-22,29-06-25,Mumbai,New Delhi,2323.0,delayed
+SH1163,2025-04-05,14-04-25,Bengaluru,Mumbai,2074.0,on_time
+SH1164,2025-07-01,08-07-25,Delhi NCR,Mumbai,1270.0,on_time
+SH1165,2025-01-12,14-01-25,Bengaluru,Mumbai,1577.0,on_time
+SH1166,2025-02-26,07-03-25,Delhi NCR,New Delhi,3314.0,late
+SH1167,2025-02-16,23-02-25,Bengaluru,Chennai,32.77,on_time
+SH1168,2025-06-28,07-07-25,Bengaluru,Chennai,22.86,late
+SH1169,2025-04-08,16-04-25,Bengaluru,Hyderabad,2982.0,late
+SH1170,2025-06-15,17-06-25,Bengaluru,Delhi NCR,23.23,on_time
+SH1171,2025-04-16,18-04-25,Delhi NCR,Hyderabad,2680.0,delay_greater_than_2_hr
+SH1172,2025-05-12,14-12-25,Delhi NCR,Bengaluru,3972.0,on_time
+SH1173,2025-01-17,26-01-25,New Delhi,Chennai,4664.0,delay_greater_than_2_hr
+SH1174,2025-02-03,06-02-25,Bengaluru,Delhi NCR,4800.0,on_time
+SH1175,2025-04-25,03-05-25,Chennai,Bengaluru,1260.0,on_time
+SH1176,2025-07-02,15-02-25,Hyderabad,Delhi NCR,3945.0,delay_greater_than_2_hr
+SH1177,2025-05-12,21-05-25,Mumbai,Hyderabad,3447.0,delay_greater_than_2_hr
+SH1178,2025-07-03,12-07-25,Bengaluru,Mumbai,3766.0,delay_greater_than_2_hr
+SH1179,2025-06-04,07-06-25,New Delhi,Bengaluru,58.2,on_time
+SH1180,2025-05-27,02-06-25,Bengaluru,Bengaluru,4400.0,on_time
+SH1181,2025-05-29,31-05-25,New Delhi,Mumbai,1023.0,on_time
+SH1182,2025-03-31,02-04-25,Hyderabad,Bengaluru,2253.0,on_time
+SH1183,2025-02-14,17-02-25,Bengaluru,Mumbai,2796.0,delayed
+SH1184,2025-02-25,04-03-25,Delhi NCR,Chennai,4702.0,delay_greater_than_2_hr
+SH1185,2025-03-04,06-03-25,Delhi NCR,Bengaluru,2555.0,on_time
+SH1186,2025-04-09,12-09-25,Delhi NCR,Hyderabad,802.0,delay_greater_than_2_hr
+SH1187,2025-01-14,17-01-25,Hyderabad,Bengaluru,4623.0,on_time
+SH1188,2025-03-19,22-03-25,Bengaluru,Mumbai,2146.0,on_time
+SH1189,2025-05-31,03-06-25,Bengaluru,New Delhi,2406.0,on_time
+SH1190,2025-04-29,05-05-25,Bengaluru,Hyderabad,2575.0,late
+SH1191,2025-07-04,15-04-25,Mumbai,New Delhi,7.81,late
+SH1192,2025-02-13,19-02-25,Mumbai,Hyderabad,3783.0,on_time
+SH1193,2025-03-09,07-09-25,Bengaluru,Delhi NCR,9.15,on_time
+SH1194,2025-04-19,24-04-25,Delhi NCR,Hyderabad,4706.0,on_time
+SH1195,2025-02-03,12-02-25,Chennai,Delhi NCR,2972.0,on_time
+SH1196,2025-06-29,02-07-25,Delhi NCR,New Delhi,28.26,on_time
+SH1197,2025-07-03,13-03-25,Mumbai,Bengaluru,4312.0,on_time
+SH1198,2025-06-30,07-07-25,Mumbai,Mumbai,2824.0,on_time
+SH1199,2025-03-11,08-11-25,Mumbai,Delhi NCR,3921.0,on_time
+SH1200,2025-07-09,14-09-25,Mumbai,Mumbai,4235.0,late
+SH1201,2025-05-11,15-05-25,Mumbai,Bengaluru,38.62,on_time
+SH1202,2025-06-01,09-06-25,Bengaluru,Delhi NCR,505.0,delay_greater_than_2_hr
+SH1203,2025-03-07,15-03-25,Bengaluru,Bengaluru,1145.0,late
+SH1204,2025-04-23,02-05-25,Mumbai,New Delhi,59.86,on_time
+SH1205,2025-05-16,20-05-25,Hyderabad,Chennai,1641.0,late
+SH1206,2025-01-20,22-01-25,Bengaluru,Bengaluru,2548.0,on_time
+SH1207,2025-03-31,07-04-25,Hyderabad,Bengaluru,29.1,late
+SH1208,2025-05-06,12-05-25,New Delhi,Bengaluru,2526.0,late
+SH1209,2025-01-03,06-01-25,Bengaluru,New Delhi,2539.0,delayed
+SH1210,2025-05-31,03-06-25,Mumbai,Mumbai,2719.0,on_time
+SH1211,2025-05-10,13-05-25,New Delhi,Mumbai,2119.0,on_time
+SH1212,2025-04-11,13-04-25,Hyderabad,Mumbai,3332.0,delayed
+SH1213,2025-05-23,30-05-25,Mumbai,Delhi NCR,2538.0,delayed
+SH1214,2025-04-05,07-04-25,Delhi NCR,Mumbai,2104.0,on_time
+SH1215,2025-07-07,14-07-25,New Delhi,Mumbai,2408.0,on_time
+SH1216,2025-05-17,22-05-25,Chennai,Chennai,2070.0,on_time
+SH1217,2025-03-05,12-03-25,Mumbai,Mumbai,4143.0,delay_greater_than_2_hr
+SH1218,2025-04-03,08-03-25,Mumbai,Mumbai,17.15,on_time
+SH1219,2025-03-01,07-01-25,Mumbai,Hyderabad,3398.0,on_time
+SH1220,2025-06-03,10-06-25,Bengaluru,Bengaluru,4727.0,delayed
+SH1221,2025-02-11,05-11-25,New Delhi,Chennai,2843.0,on_time
+SH1222,2025-03-13,20-03-25,Mumbai,Hyderabad,4262.0,delayed
+SH1223,2025-04-07,15-04-25,Bengaluru,Chennai,2690.0,late
+SH1224,2025-06-02,09-06-25,Mumbai,New Delhi,4187.0,on_time
+SH1225,2025-02-08,12-02-25,Chennai,Bengaluru,697.0,on_time
+SH1226,2025-03-08,07-08-25,Mumbai,Mumbai,31.69,delayed
+SH1227,2025-06-04,11-06-25,Delhi NCR,New Delhi,1620.0,on_time
+SH1228,2025-02-02,09-02-25,Mumbai,Mumbai,2743.0,on_time
+SH1229,2025-03-27,02-04-25,Bengaluru,Hyderabad,2365.0,on_time
+SH1230,2025-02-07,13-02-25,Bengaluru,Mumbai,3728.0,on_time
+SH1231,2025-06-06,14-06-25,Chennai,Bengaluru,2871.0,delayed
+SH1232,2025-06-22,26-06-25,New Delhi,Mumbai,594.0,delay_greater_than_2_hr
+SH1233,2025-04-25,28-04-25,Mumbai,Delhi NCR,2334.0,on_time
+SH1234,2025-05-28,01-06-25,Bengaluru,Delhi NCR,3825.0,on_time
+SH1235,2025-03-15,22-03-25,Bengaluru,Hyderabad,1314.0,on_time
+SH1236,2025-03-31,05-04-25,New Delhi,Hyderabad,34.56,on_time
+SH1237,2025-05-21,24-05-25,Delhi NCR,Mumbai,18.55,delay_greater_than_2_hr
+SH1238,2025-04-21,25-04-25,Bengaluru,Bengaluru,4031.0,delay_greater_than_2_hr
+SH1239,2025-05-13,22-05-25,Chennai,New Delhi,4376.0,on_time
+SH1240,2025-03-13,15-03-25,Bengaluru,Hyderabad,1103.0,delayed
+SH1241,2025-01-31,07-02-25,Bengaluru,Mumbai,4646.0,late
+SH1242,2025-01-29,05-02-25,New Delhi,Delhi NCR,2292.0,delay_greater_than_2_hr
+SH1243,2025-05-29,01-06-25,Bengaluru,Bengaluru,2145.0,on_time
+SH1244,2025-02-26,28-02-25,Bengaluru,Chennai,29.43,delayed
+SH1245,2025-02-24,05-03-25,Mumbai,Mumbai,3208.0,on_time
+SH1246,2025-05-17,20-05-25,Bengaluru,Hyderabad,50.09,on_time
+SH1247,2025-06-03,05-06-25,Bengaluru,Bengaluru,13.43,delayed
+SH1248,2025-03-31,07-04-25,Bengaluru,New Delhi,885.0,delay_greater_than_2_hr
+SH1249,2025-06-11,08-11-25,New Delhi,Mumbai,1454.0,delayed
+SH1250,2025-07-01,10-07-25,Chennai,Mumbai,4620.0,on_time
+SH1251,2025-07-17,23-07-25,New Delhi,Delhi NCR,4880.0,on_time
+SH1252,2025-06-03,08-06-25,Delhi NCR,Bengaluru,3620.0,delay_greater_than_2_hr
+SH1253,2025-07-18,20-07-25,Hyderabad,Bengaluru,1188.0,delay_greater_than_2_hr
+SH1254,2025-04-28,03-05-25,New Delhi,Mumbai,2224.0,delayed
+SH1255,2025-04-14,16-04-25,Bengaluru,Delhi NCR,28.24,on_time
+SH1256,2025-05-21,30-05-25,Mumbai,Bengaluru,1222.0,delay_greater_than_2_hr
+SH1257,2025-06-07,13-06-25,Chennai,Bengaluru,48.45,on_time
+SH1258,2025-05-24,02-06-25,Mumbai,Bengaluru,2565.0,late
+SH1259,2025-04-25,03-05-25,Delhi NCR,Bengaluru,3557.0,delay_greater_than_2_hr
+SH1260,2025-07-13,20-07-25,Delhi NCR,Delhi NCR,1446.0,on_time
+SH1261,2025-05-09,18-05-25,Bengaluru,Bengaluru,4650.0,late
+SH1262,2025-02-01,04-02-25,Mumbai,Delhi NCR,24.76,delayed
+SH1263,2025-05-04,06-05-25,New Delhi,Bengaluru,554.0,delay_greater_than_2_hr
+SH1264,2025-02-01,07-02-25,Mumbai,Mumbai,3579.0,late
+SH1265,2025-03-06,15-03-25,Mumbai,Delhi NCR,2990.0,delayed
+SH1266,2025-02-23,27-02-25,Bengaluru,Bengaluru,4175.0,on_time
+SH1267,2025-01-08,17-01-25,Delhi NCR,Mumbai,1811.0,on_time
+SH1268,2025-05-24,29-05-25,Mumbai,Mumbai,664.0,delayed
+SH1269,2025-02-24,05-03-25,Bengaluru,Bengaluru,4925.0,on_time
+SH1270,2025-06-10,12-10-25,Mumbai,Bengaluru,4742.0,on_time
+SH1271,2025-04-22,27-04-25,Mumbai,Mumbai,22.6,late
+SH1272,2025-01-02,04-01-25,Mumbai,Mumbai,4094.0,on_time
+SH1273,2025-05-10,15-05-25,Bengaluru,Chennai,25.69,delay_greater_than_2_hr
+SH1274,2025-02-06,11-06-25,Mumbai,Chennai,4077.0,on_time
+SH1275,2025-04-18,20-04-25,Hyderabad,Hyderabad,3261.0,on_time
+SH1276,2025-06-07,14-06-25,Bengaluru,Bengaluru,4723.0,late
+SH1277,2025-04-24,26-04-25,Bengaluru,New Delhi,3099.0,delay_greater_than_2_hr
+SH1278,2025-01-25,27-01-25,New Delhi,Delhi NCR,1801.0,on_time
+SH1279,2025-06-03,12-03-25,Mumbai,New Delhi,3680.0,delay_greater_than_2_hr
+SH1280,2025-03-16,23-03-25,Bengaluru,Hyderabad,33.44,on_time
+SH1281,2025-04-10,12-04-25,Mumbai,Delhi NCR,32.26,on_time
+SH1282,2025-01-17,24-01-25,Delhi NCR,Bengaluru,2122.0,on_time
+SH1283,2025-04-16,22-04-25,Hyderabad,Delhi NCR,2574.0,delayed
+SH1284,2025-05-14,18-05-25,Delhi NCR,Mumbai,4763.0,late
+SH1285,2025-02-22,02-03-25,Bengaluru,New Delhi,43.16,late
+SH1286,2025-05-25,31-05-25,Bengaluru,Delhi NCR,3181.0,delay_greater_than_2_hr
+SH1287,2025-02-15,20-02-25,Chennai,Mumbai,1886.0,delayed
+SH1288,2025-07-12,17-07-25,Hyderabad,Delhi NCR,4624.0,late
+SH1289,2025-02-09,13-02-25,Mumbai,Bengaluru,1636.0,late
+SH1290,2025-02-23,26-02-25,Chennai,Bengaluru,4650.0,delay_greater_than_2_hr
+SH1291,2025-04-21,27-04-25,Hyderabad,Bengaluru,2285.0,on_time
+SH1292,2025-03-22,29-03-25,Mumbai,Mumbai,4960.0,on_time
+SH1293,2025-06-03,05-06-25,Hyderabad,New Delhi,2843.0,late
+SH1294,2025-01-17,21-01-25,Mumbai,Hyderabad,2139.0,delayed
+SH1295,2025-01-25,29-01-25,Chennai,Mumbai,4726.0,late
+SH1296,2025-06-28,05-07-25,Delhi NCR,Mumbai,4697.0,delay_greater_than_2_hr
+SH1297,2025-01-12,07-12-25,Bengaluru,Bengaluru,3615.0,delayed
+SH1298,2025-07-08,10-07-25,Delhi NCR,Chennai,829.0,delay_greater_than_2_hr
+SH1299,2025-02-26,03-03-25,Mumbai,Mumbai,1841.0,on_time
+SH1300,2025-03-24,01-04-25,Hyderabad,New Delhi,3208.0,delay_greater_than_2_hr
+SH1301,2025-07-17,26-07-25,Delhi NCR,Delhi NCR,52.83,delay_greater_than_2_hr
+SH1302,2025-04-19,22-04-25,Mumbai,New Delhi,6.83,on_time
+SH1303,2025-02-01,09-02-25,Bengaluru,Mumbai,900.0,on_time
+SH1304,2025-01-26,29-01-25,Bengaluru,Mumbai,890.0,on_time
+SH1305,2025-03-20,28-03-25,Bengaluru,Bengaluru,4732.0,late
+SH1306,2025-04-25,28-04-25,New Delhi,Hyderabad,1326.0,late
+SH1307,2025-06-16,20-06-25,New Delhi,Mumbai,62.46,on_time
+SH1308,2025-01-17,24-01-25,Mumbai,Bengaluru,21.02,delayed
+SH1309,2025-06-01,07-06-25,Delhi NCR,New Delhi,630.0,on_time
+SH1310,2025-02-06,09-02-25,Bengaluru,Delhi NCR,59.73,delay_greater_than_2_hr
+SH1311,2025-01-15,24-01-25,Mumbai,Bengaluru,51.09,on_time
+SH1312,2025-04-03,06-04-25,Hyderabad,Chennai,4611.0,on_time
+SH1313,2025-06-19,22-06-25,Mumbai,Hyderabad,810.0,delay_greater_than_2_hr
+SH1314,2025-06-07,11-06-25,Chennai,Hyderabad,2304.0,late
+SH1315,2025-06-09,18-06-25,Hyderabad,Delhi NCR,4310.0,on_time
+SH1316,2025-02-08,07-08-25,Bengaluru,Mumbai,4624.0,on_time
+SH1317,2025-03-03,12-03-25,Bengaluru,Delhi NCR,4011.0,on_time
+SH1318,2025-01-10,03-10-25,New Delhi,New Delhi,3930.0,on_time
+SH1319,2025-03-06,13-03-25,Mumbai,New Delhi,53.25,late
+SH1320,2025-06-22,01-07-25,Delhi NCR,Mumbai,2533.0,on_time
+SH1321,2025-05-26,01-06-25,Bengaluru,Delhi NCR,11.64,delayed
+SH1322,2025-03-14,22-03-25,Delhi NCR,Mumbai,1463.0,on_time
+SH1323,2025-07-06,13-06-25,Bengaluru,Mumbai,4568.0,late
+SH1324,2025-05-04,13-04-25,Delhi NCR,Chennai,1963.0,on_time
+SH1325,2025-02-15,19-02-25,Chennai,Hyderabad,2368.0,delayed
+SH1326,2025-06-02,07-06-25,Bengaluru,Mumbai,1384.0,delay_greater_than_2_hr
+SH1327,2025-03-15,18-03-25,Mumbai,Bengaluru,1324.0,on_time
+SH1328,2025-06-18,25-06-25,Bengaluru,Delhi NCR,2296.0,late
+SH1329,2025-02-16,18-02-25,Delhi NCR,Chennai,3670.0,on_time
+SH1330,2025-05-02,09-02-25,New Delhi,Bengaluru,2966.0,on_time
+SH1331,2025-03-03,05-03-25,Bengaluru,Bengaluru,502.0,on_time
+SH1332,2025-06-09,15-06-25,New Delhi,Bengaluru,2530.0,on_time
+SH1333,2025-03-09,16-03-25,New Delhi,Chennai,1880.0,on_time
+SH1334,2025-04-15,24-04-25,Delhi NCR,Chennai,3182.0,on_time
+SH1335,2025-07-14,16-07-25,Chennai,Delhi NCR,1855.0,on_time
+SH1336,2025-01-09,03-09-25,Mumbai,Bengaluru,1918.0,delay_greater_than_2_hr
+SH1337,2025-02-07,16-02-25,Chennai,Bengaluru,4472.0,delay_greater_than_2_hr
+SH1338,2025-05-26,02-06-25,Mumbai,Chennai,536.0,on_time
+SH1339,2025-01-28,03-02-25,Chennai,Bengaluru,45.14,delay_greater_than_2_hr
+SH1340,2025-02-14,18-02-25,Mumbai,Delhi NCR,3245.0,late
+SH1341,2025-02-25,28-02-25,Bengaluru,Delhi NCR,4430.0,on_time
+SH1342,2025-01-06,10-06-25,Mumbai,Mumbai,46.74,on_time
+SH1343,2025-02-28,04-03-25,Bengaluru,Bengaluru,2204.0,on_time
+SH1344,2025-02-14,16-02-25,Bengaluru,New Delhi,2216.0,on_time
+SH1345,2025-06-19,23-06-25,Delhi NCR,Bengaluru,2969.0,on_time
+SH1346,2025-01-07,05-07-25,Delhi NCR,Bengaluru,1056.0,late
+SH1347,2025-01-23,26-01-25,Delhi NCR,Delhi NCR,3219.0,on_time
+SH1348,2025-06-07,15-06-25,Bengaluru,New Delhi,56.23,delayed
+SH1349,2025-04-10,11-10-25,Mumbai,New Delhi,1088.0,delay_greater_than_2_hr
+SH1350,2025-07-13,22-07-25,Delhi NCR,Delhi NCR,3617.0,on_time
+SH1351,2025-04-23,02-05-25,Mumbai,Chennai,18.84,on_time
+SH1352,2025-07-18,21-07-25,Delhi NCR,Hyderabad,21.84,on_time
+SH1353,2025-06-05,14-05-25,Bengaluru,Mumbai,21.81,on_time
+SH1354,2025-02-06,11-02-25,Hyderabad,Bengaluru,2387.0,delay_greater_than_2_hr
+SH1355,2025-07-11,12-11-25,Delhi NCR,Hyderabad,1417.0,on_time
+SH1356,2025-04-28,30-04-25,Bengaluru,Mumbai,6.51,late
+SH1357,2025-04-30,09-05-25,Bengaluru,Mumbai,1186.0,on_time
+SH1358,2025-06-13,19-06-25,Chennai,Mumbai,3007.0,delayed
+SH1359,2025-05-19,21-05-25,Bengaluru,Bengaluru,56.24,on_time
+SH1360,2025-02-27,02-03-25,Mumbai,New Delhi,24.41,delay_greater_than_2_hr
+SH1361,2025-04-09,15-04-25,Mumbai,Mumbai,538.0,delayed
+SH1362,2025-01-29,04-02-25,Mumbai,Chennai,1598.0,late
+SH1363,2025-02-01,10-01-25,Bengaluru,Hyderabad,3655.0,on_time
+SH1364,2025-01-27,29-01-25,Delhi NCR,Mumbai,3953.0,late
+SH1365,2025-04-02,12-02-25,New Delhi,Delhi NCR,4526.0,delayed
+SH1366,2025-01-06,03-06-25,Delhi NCR,Mumbai,4463.0,late
+SH1367,2025-06-15,21-06-25,Hyderabad,Bengaluru,2355.0,delay_greater_than_2_hr
+SH1368,2025-01-12,15-01-25,New Delhi,Chennai,34.44,on_time
+SH1369,2025-03-13,20-03-25,Bengaluru,Chennai,1484.0,late
+SH1370,2025-02-22,03-03-25,Bengaluru,Hyderabad,13.62,on_time
+SH1371,2025-02-19,24-02-25,Bengaluru,Bengaluru,4944.0,on_time
+SH1372,2025-07-11,20-07-25,Bengaluru,Bengaluru,54.99,on_time
+SH1373,2025-05-02,09-05-25,New Delhi,Bengaluru,1026.0,on_time
+SH1374,2025-06-02,09-06-25,Chennai,Bengaluru,2375.0,on_time
+SH1375,2025-01-09,11-01-25,Mumbai,Bengaluru,616.0,late
+SH1376,2025-05-10,14-05-25,Bengaluru,Hyderabad,4288.0,delay_greater_than_2_hr
+SH1377,2025-01-21,28-01-25,Mumbai,Delhi NCR,4933.0,on_time
+SH1378,2025-04-05,13-05-25,Mumbai,Bengaluru,1228.0,on_time
+SH1379,2025-02-02,11-02-25,Bengaluru,Mumbai,15.97,delay_greater_than_2_hr
+SH1380,2025-02-10,12-02-25,New Delhi,Bengaluru,3436.0,late
+SH1381,2025-02-15,22-02-25,Hyderabad,Bengaluru,40.25,delay_greater_than_2_hr
+SH1382,2025-06-17,20-06-25,Bengaluru,Bengaluru,41.85,delay_greater_than_2_hr
+SH1383,2025-06-07,12-06-25,Delhi NCR,Bengaluru,1417.0,on_time
+SH1384,2025-04-13,21-04-25,Bengaluru,New Delhi,7.36,delayed
+SH1385,2025-05-23,26-05-25,Mumbai,Hyderabad,605.0,on_time
+SH1386,2025-04-29,08-05-25,Mumbai,Mumbai,816.0,late
+SH1387,2025-05-14,16-05-25,Mumbai,Delhi NCR,3644.0,late
+SH1388,2025-04-13,16-04-25,Delhi NCR,Mumbai,15.19,on_time
+SH1389,2025-01-08,13-01-25,Chennai,New Delhi,3889.0,on_time
+SH1390,2025-03-25,29-03-25,Bengaluru,Delhi NCR,2930.0,delayed
+SH1391,2025-01-07,14-01-25,Chennai,Mumbai,3885.0,on_time
+SH1392,2025-01-22,26-01-25,Hyderabad,Hyderabad,4609.0,on_time
+SH1393,2025-01-12,18-01-25,Bengaluru,Mumbai,2060.0,late
+SH1394,2025-05-27,04-06-25,Delhi NCR,Delhi NCR,1249.0,delay_greater_than_2_hr
+SH1395,2025-06-22,28-06-25,Bengaluru,Bengaluru,4202.0,on_time
+SH1396,2025-02-22,26-02-25,Delhi NCR,Delhi NCR,52.06,delayed
+SH1397,2025-07-17,23-07-25,New Delhi,Mumbai,10.14,on_time
+SH1398,2025-02-28,05-03-25,Chennai,Chennai,1254.0,on_time
+SH1399,2025-04-03,10-04-25,Hyderabad,Bengaluru,10.65,late
+SH1400,2025-03-17,24-03-25,Mumbai,Delhi NCR,8.22,delay_greater_than_2_hr
+SH1401,2025-01-24,29-01-25,Delhi NCR,Chennai,40.99,late
+SH1402,2025-01-20,25-01-25,Delhi NCR,Bengaluru,2212.0,on_time
+SH1403,2025-04-06,09-06-25,Delhi NCR,New Delhi,1773.0,late
+SH1404,2025-03-07,15-03-25,New Delhi,Delhi NCR,1941.0,delayed
+SH1405,2025-06-13,16-06-25,Delhi NCR,Mumbai,1894.0,delayed
+SH1406,2025-01-12,16-01-25,Bengaluru,Delhi NCR,12.86,on_time
+SH1407,2025-02-09,11-02-25,Chennai,Delhi NCR,3414.0,on_time
+SH1408,2025-04-10,19-04-25,Delhi NCR,Bengaluru,3869.0,late
+SH1409,2025-03-19,22-03-25,Mumbai,Mumbai,874.0,on_time
+SH1410,2025-06-15,21-06-25,Bengaluru,Mumbai,2865.0,delay_greater_than_2_hr
+SH1411,2025-03-01,08-03-25,Mumbai,Hyderabad,34.73,on_time
+SH1412,2025-03-25,27-03-25,Delhi NCR,Bengaluru,3438.0,delayed
+SH1413,2025-03-07,11-03-25,Hyderabad,Chennai,1752.0,delay_greater_than_2_hr
+SH1414,2025-01-05,10-01-25,Bengaluru,Bengaluru,4523.0,on_time
+SH1415,2025-05-31,08-06-25,Delhi NCR,Bengaluru,3966.0,on_time
+SH1416,2025-04-28,05-05-25,Bengaluru,Mumbai,3139.0,on_time
+SH1417,2025-04-03,10-04-25,Delhi NCR,Chennai,3932.0,delayed
+SH1418,2025-05-13,22-05-25,New Delhi,Bengaluru,2860.0,on_time
+SH1419,2025-01-28,30-01-25,Delhi NCR,Hyderabad,3678.0,delay_greater_than_2_hr
+SH1420,2025-06-14,16-06-25,Bengaluru,Bengaluru,4068.0,on_time
+SH1421,2025-04-30,05-05-25,Mumbai,Mumbai,1890.0,late
+SH1422,2025-07-08,13-07-25,Chennai,Mumbai,4453.0,on_time
+SH1423,2025-02-06,11-02-25,Bengaluru,Delhi NCR,781.0,on_time
+SH1424,2025-01-01,05-01-25,Chennai,Hyderabad,4793.0,on_time
+SH1425,2025-02-28,02-03-25,Chennai,Mumbai,1729.0,on_time
+SH1426,2025-01-12,15-01-25,Delhi NCR,Chennai,1739.0,delay_greater_than_2_hr
+SH1427,2025-05-06,11-06-25,Mumbai,Mumbai,1708.0,on_time
+SH1428,2025-07-03,10-03-25,Mumbai,New Delhi,1418.0,delayed
+SH1429,2025-03-25,02-04-25,Bengaluru,Bengaluru,61.29,delayed
+SH1430,2025-06-27,05-07-25,Mumbai,Hyderabad,2533.0,on_time
+SH1431,2025-05-09,11-09-25,Mumbai,Mumbai,2018.0,on_time
+SH1432,2025-02-03,05-02-25,Mumbai,Bengaluru,2974.0,delayed
+SH1433,2025-06-07,10-06-25,Delhi NCR,Bengaluru,4219.0,delayed
+SH1434,2025-02-16,20-02-25,Mumbai,Bengaluru,2363.0,on_time
+SH1435,2025-07-15,17-07-25,Mumbai,Mumbai,3572.0,delayed
+SH1436,2025-05-27,02-06-25,Chennai,New Delhi,1827.0,on_time
+SH1437,2025-04-15,22-04-25,Mumbai,Bengaluru,47.39,on_time
+SH1438,2025-07-13,21-07-25,Bengaluru,Mumbai,46.65,delayed
+SH1439,2025-03-30,05-04-25,Mumbai,Mumbai,39.15,late
+SH1440,2025-06-08,09-08-25,Bengaluru,Mumbai,3673.0,delayed
+SH1441,2025-01-19,26-01-25,Bengaluru,Chennai,50.66,late
+SH1442,2025-03-23,27-03-25,Mumbai,Bengaluru,1888.0,on_time
+SH1443,2025-05-09,12-09-25,New Delhi,Bengaluru,16.51,delayed
+SH1444,2025-05-23,25-05-25,Delhi NCR,Bengaluru,3647.0,on_time
+SH1445,2025-05-23,27-05-25,Hyderabad,Bengaluru,42.19,delayed
+SH1446,2025-06-10,15-10-25,New Delhi,Mumbai,50.85,on_time
+SH1447,2025-02-04,07-02-25,Bengaluru,Mumbai,3838.0,delay_greater_than_2_hr
+SH1448,2025-07-19,26-07-25,Mumbai,Bengaluru,3389.0,on_time
+SH1449,2025-06-23,27-06-25,Delhi NCR,Hyderabad,54.56,delay_greater_than_2_hr
+SH1450,2025-02-17,24-02-25,Bengaluru,Chennai,2447.0,on_time
+SH1451,2025-06-02,07-06-25,Bengaluru,Bengaluru,4899.0,delayed
+SH1452,2025-01-15,19-01-25,Hyderabad,Mumbai,1443.0,on_time
+SH1453,2025-02-15,18-02-25,Mumbai,Hyderabad,2911.0,on_time
+SH1454,2025-01-21,29-01-25,Bengaluru,New Delhi,1514.0,on_time
+SH1455,2025-03-21,26-03-25,Delhi NCR,Bengaluru,15.18,late
+SH1456,2025-01-15,21-01-25,Hyderabad,Chennai,8.0,delayed
+SH1457,2025-02-03,08-03-25,Delhi NCR,Bengaluru,1463.0,on_time
+SH1458,2025-04-27,03-05-25,Delhi NCR,New Delhi,605.0,on_time
+SH1459,2025-06-07,09-07-25,Bengaluru,Mumbai,4516.0,delay_greater_than_2_hr
+SH1460,2025-05-12,07-12-25,Mumbai,Delhi NCR,4945.0,delay_greater_than_2_hr
+SH1461,2025-01-07,10-01-25,Hyderabad,Mumbai,51.92,delay_greater_than_2_hr
+SH1462,2025-06-19,25-06-25,Bengaluru,Mumbai,535.0,on_time
+SH1463,2025-07-15,23-07-25,Bengaluru,Hyderabad,29.31,on_time
+SH1464,2025-04-30,06-05-25,Bengaluru,Mumbai,42.98,late
+SH1465,2025-04-29,06-05-25,Mumbai,Delhi NCR,22.5,delayed
+SH1466,2025-05-17,25-05-25,Mumbai,Bengaluru,6.36,delayed
+SH1467,2025-05-02,05-05-25,Mumbai,Delhi NCR,3131.0,on_time
+SH1468,2025-02-18,22-02-25,Bengaluru,Chennai,1816.0,on_time
+SH1469,2025-02-19,23-02-25,Bengaluru,Chennai,52.29,delay_greater_than_2_hr
+SH1470,2025-06-16,19-06-25,Chennai,Mumbai,44.25,delayed
+SH1471,2025-07-02,04-07-25,Mumbai,Mumbai,982.0,delay_greater_than_2_hr
+SH1472,2025-04-29,05-05-25,Bengaluru,Chennai,14.51,on_time
+SH1473,2025-02-06,06-06-25,Bengaluru,Hyderabad,18.59,on_time
+SH1474,2025-06-09,09-09-25,Mumbai,Mumbai,1468.0,late
+SH1475,2025-03-19,26-03-25,Mumbai,Bengaluru,15.86,on_time
+SH1476,2025-01-07,13-01-25,Hyderabad,Bengaluru,4229.0,delay_greater_than_2_hr
+SH1477,2025-02-11,08-11-25,Bengaluru,Bengaluru,56.35,on_time
+SH1478,2025-01-24,28-01-25,Delhi NCR,Mumbai,1741.0,on_time
+SH1479,2025-02-11,10-11-25,Bengaluru,Chennai,4631.0,on_time
+SH1480,2025-04-07,09-04-25,Mumbai,Delhi NCR,2414.0,on_time
+SH1481,2025-07-15,21-07-25,Bengaluru,Delhi NCR,4213.0,on_time
+SH1482,2025-06-21,25-06-25,Delhi NCR,Mumbai,4755.0,delayed
+SH1483,2025-05-29,01-06-25,Mumbai,Delhi NCR,7.08,delay_greater_than_2_hr
+SH1484,2025-02-27,03-03-25,Chennai,Hyderabad,841.0,on_time
+SH1485,2025-03-11,14-03-25,Delhi NCR,Mumbai,3161.0,on_time
+SH1486,2025-01-30,04-02-25,Mumbai,New Delhi,1161.0,delayed
+SH1487,2025-07-05,13-05-25,Hyderabad,Mumbai,29.6,late
+SH1488,2025-02-16,25-02-25,Mumbai,Mumbai,39.56,on_time
+SH1489,2025-06-07,14-07-25,Hyderabad,Bengaluru,3459.0,on_time
+SH1490,2025-05-24,29-05-25,Hyderabad,Bengaluru,4219.0,late
+SH1491,2025-01-30,05-02-25,Bengaluru,Bengaluru,4943.0,delay_greater_than_2_hr
+SH1492,2025-04-14,20-04-25,New Delhi,Chennai,4443.0,delay_greater_than_2_hr
+SH1493,2025-05-01,08-05-25,Hyderabad,Hyderabad,648.0,on_time
+SH1494,2025-07-17,20-07-25,Bengaluru,Delhi NCR,2266.0,delayed
+SH1495,2025-06-10,11-10-25,Bengaluru,Chennai,25.29,on_time
+SH1496,2025-02-05,05-05-25,Mumbai,Mumbai,2101.0,delay_greater_than_2_hr
+SH1497,2025-04-15,19-04-25,Mumbai,Bengaluru,2996.0,on_time
+SH1498,2025-03-16,23-03-25,Mumbai,Hyderabad,2189.0,on_time
+SH1499,2025-07-15,19-07-25,New Delhi,Delhi NCR,905.0,delayed
